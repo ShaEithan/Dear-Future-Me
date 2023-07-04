@@ -15,12 +15,19 @@ h2 {
 .navbar {
     list-style-type: none; 
     padding-left: 0;
-    text-align: left;
+    text-align: right;
 }
 
 .navbar li{
+    font-size: 1.5rem;
     display: inline-block;
     margin-right: 1rem;
+}
+
+.title {
+    position: absolute;
+    left: 0;
+    padding-left: 1rem;
 }
 
 a {
