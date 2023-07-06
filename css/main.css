@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300&display=swap');
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    background: #5B7386;
+    color: #ffffff;
+}
+
+.text-heading {
+    color: #F7F5C9;
+    font-style: oblique;
+    font-size: 2rem;
+
+    text-align: center;
+    letter-spacing: 0.2rem;
+
+
+    margin-bottom: -15px;
+    padding-top: 4%;
+}
+
+.list-container {
+    border-radius: 25px;
+    border: 2px solid #F7F5C9;
+
+    min-width: 15vw;
+    min-height: 15vh;
+    max-width: 45vw;
+    max-height: 60vh;
+    margin: 40px auto;
+
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.question-list{
+    flex: 1;
+    margin: 5%;
+    font-size: medium;
+    letter-spacing: 0.2rem;
+    font-size: 2em;
+}
+
+.navbar {
+    list-style-type: none; 
+    padding-left: 0%;
+    text-align: right;
+    position: relative;
+}
+
+.navbar li{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.title {
+    left: 0%;
+    padding-left: 1rem;
+    position: absolute;
+}
+
+.sign-up {
+    color: #F7F5C9;
+
+    font-style: oblique;
+    font-size: 2.5rem;
+
+    text-align: center;
+    text-decoration: wavy;
+    letter-spacing: 0.2rem;
+
+    margin-top: -10px;
+
+    position: relative;
+}
+
+.creator {
+    text-align: center;
+    margin-top: 15%;
+    position: sticky;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F7F5C9;
+}
+
+a:hover {
+    color: white;
+}
