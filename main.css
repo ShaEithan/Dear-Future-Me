@@ -1,42 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300&display=swap');
 
 body {
+    margin: 0;
     font-size: 1rem;
     font-family: 'Heebo', sans-serif;
     background: #5B7386;
     color: #ffffff;
 }
 
+.main-container {
+    position: relative;
+}
+
+
 .text-heading {
     color: #F7F5C9;
     font-style: oblique;
+    font-size: 2rem;
+
     text-align: center;
+    letter-spacing: 0.2rem;
+
+
     margin-bottom: -15px;
+    padding-top: 4%;
 }
 
 .list-container {
     border-radius: 25px;
     border: 2px solid #F7F5C9;
-    width: 50vw;
-    height: 30vh;
+
+    min-width: 30vw;
+    min-height: 30vh;
+    max-width: 50vw;
+    max-height: 100vh;
     margin: 40px auto;
+
     position: auto;
     z-index: 1;
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-ul li {
+.question-list{
+    flex: 1;
     margin: 5%;
     font-size: medium;
+    letter-spacing: 0.2rem;
+    font-size: 2em;
 }
 
 .navbar {
     list-style-type: none; 
-    padding-left: 0;
+    padding-left: 0%;
     text-align: right;
-    margin-bottom: -50px;
     position: relative;
 }
 
@@ -47,19 +66,32 @@ ul li {
 }
 
 .title {
-    left: 0;
+    left: 0%;
     padding-left: 1rem;
     position: absolute;
 }
 
 .sign-up {
     color: #F7F5C9;
+
     font-style: oblique;
+    font-size: 2.5rem;
+
     text-align: center;
+    text-decoration: wavy;
+    letter-spacing: 0.2rem;
+
+    margin-top: -10px;
 }
 
 .creator {
     text-align: center;
+    
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 
 a {
