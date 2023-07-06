@@ -7,15 +7,37 @@ body {
     color: #ffffff;
 }
 
-h2 {
+.text-heading {
     color: #F7F5C9;
     font-style: oblique;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.list-container {
+    border-radius: 25px;
+    border: 2px solid #F7F5C9;
+    width: 50vw;
+    height: 30vh;
+    margin: 40px auto;
+    position: auto;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin: 5%;
+    font-size: medium;
 }
 
 .navbar {
     list-style-type: none; 
     padding-left: 0;
     text-align: right;
+    margin-bottom: -50px;
+    position: relative;
 }
 
 .navbar li{
@@ -25,9 +47,19 @@ h2 {
 }
 
 .title {
-    position: absolute;
     left: 0;
     padding-left: 1rem;
+    position: absolute;
+}
+
+.sign-up {
+    color: #F7F5C9;
+    font-style: oblique;
+    text-align: center;
+}
+
+.creator {
+    text-align: center;
 }
 
 a {
