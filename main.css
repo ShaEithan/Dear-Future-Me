@@ -8,11 +8,6 @@ body {
     color: #ffffff;
 }
 
-.main-container {
-    position: relative;
-}
-
-
 .text-heading {
     color: #F7F5C9;
     font-style: oblique;
@@ -30,13 +25,12 @@ body {
     border-radius: 25px;
     border: 2px solid #F7F5C9;
 
-    min-width: 30vw;
-    min-height: 30vh;
-    max-width: 50vw;
-    max-height: 100vh;
+    min-width: 15vw;
+    min-height: 15vh;
+    max-width: 45vw;
+    max-height: 60vh;
     margin: 40px auto;
 
-    position: auto;
     z-index: 1;
 
     display: flex;
@@ -82,16 +76,15 @@ body {
     letter-spacing: 0.2rem;
 
     margin-top: -10px;
+
+    position: relative;
 }
 
 .creator {
     text-align: center;
-    
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
+    margin-top: 15%;
+    position: sticky;
+    bottom: 0;
 }
 
 a {
